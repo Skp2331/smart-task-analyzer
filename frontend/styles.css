@@ -1,0 +1,121 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #0f172a;
+  color: #e5e7eb;
+  font-family: system-ui, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: .25rem;
+}
+
+.subtitle {
+  color: #94a3b8;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background: #1e293b;
+  padding: 1.2rem;
+  border-radius: .75rem;
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: .75rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: .25rem;
+  font-size: .85rem;
+  color: #cbd5e1;
+}
+
+input, textarea, select {
+  background: #0f172a;
+  color: #e5e7eb;
+  padding: .55rem;
+  border: 1px solid #334155;
+  border-radius: .5rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.btn {
+  background: #334155;
+  border: none;
+  padding: .6rem 1rem;
+  border-radius: .5rem;
+  cursor: pointer;
+  color: white;
+  margin-top: .5rem;
+}
+
+.btn.primary {
+  background: #2563eb;
+}
+
+.btn.outline {
+  border: 1px solid #475569;
+  background: transparent;
+}
+
+.status {
+  color: #94a3b8;
+  margin-top: .5rem;
+}
+
+.task-card {
+  background: #0f172a;
+  border: 1px solid #475569;
+  padding: 1rem;
+  border-radius: .6rem;
+  margin-bottom: .5rem;
+}
+
+.task-meta {
+  font-size: .8rem;
+  color: #94a3b8;
+  display: flex;
+  gap: .75rem;
+  margin-top: .25rem;
+}
+
+.badge {
+  padding: .2rem .6rem;
+  border-radius: .5rem;
+  font-size: .7rem;
+}
+
+.badge.high {
+  background: rgba(239,68,68,.25);
+  color: #fecaca;
+}
+
+.badge.medium {
+  background: rgba(251,191,36,.25);
+  color: #fef3c7;
+}
+
+.badge.low {
+  background: rgba(52,211,153,.25);
+  color: #d1fae5;
+}

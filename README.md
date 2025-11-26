@@ -184,22 +184,4 @@ Each strategy uses a different weighted formula to compute the score.
   }
 ]
 
-🧹 Folder Structure
-task-analyzer/
-│
-├── backend/
-│   ├── task_analyzer/
-│   ├── tasks/
-│   │   ├── scoring.py
-│   │   ├── views.py
-│   │   ├── urls.py
-│   │   └── tests.py
-│   └── manage.py
-│
-├── frontend/
-│   ├── index.html
-│   ├── styles.css
-│   └── script.js
-│
-└── README.md
 

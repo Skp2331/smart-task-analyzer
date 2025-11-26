@@ -2,8 +2,10 @@ Smart Task Analyzer – Internship Assignment (2025)
 
 A full-stack task prioritization system based on urgency, importance, effort & dependencies.
 
-Built by: Som Kumar Pawar
-Role Target: Software Development Intern — Singularium Technologies
+Built by: Som Kumar Pawar, 
+
+Role Target: Software Development Intern — Singularium Technologies, 
+
 Tech Stack: Django (Python), HTML/CSS/JS
 
 
